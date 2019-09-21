@@ -99,9 +99,10 @@
 		0D9772E423363A9F008B34BB /* testGit */ = {
 			isa = PBXGroup;
 			children = (
+				0D97731823363B3A008B34BB /* Model */,
+				0D97731723363B31008B34BB /* Controller */,
+				0D97731623363B0D008B34BB /* View */,
 				0D9772E523363A9F008B34BB /* AppDelegate.swift */,
-				0D9772E723363A9F008B34BB /* ViewController.swift */,
-				0D9772E923363A9F008B34BB /* Main.storyboard */,
 				0D9772EF23363AA2008B34BB /* Assets.xcassets */,
 				0D9772F123363AA2008B34BB /* LaunchScreen.storyboard */,
 				0D9772F423363AA2008B34BB /* Info.plist */,
@@ -126,6 +127,29 @@
 				0D97730A23363AA3008B34BB /* Info.plist */,
 			);
 			path = testGitUITests;
+			sourceTree = "<group>";
+		};
+		0D97731623363B0D008B34BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0D9772E923363A9F008B34BB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0D97731723363B31008B34BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0D9772E723363A9F008B34BB /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0D97731823363B3A008B34BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
